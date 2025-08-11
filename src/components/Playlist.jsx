@@ -1,4 +1,4 @@
-```jsx
+
 import React from 'react';
 import { Play, Pause, Music } from 'lucide-react';
 
@@ -122,4 +122,3 @@ const Playlist = ({
 };
 
 export default Playlist;
-```
