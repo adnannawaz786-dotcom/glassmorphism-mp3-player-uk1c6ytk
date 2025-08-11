@@ -1,0 +1,43 @@
+I cannot generate actual binary audio file content as text. Instead, I'll provide you with instructions on how to add a sample MP3 file to your project:
+
+## Instructions for adding sample1.mp3
+
+Since this is a binary audio file, you'll need to:
+
+1. **Create the directory structure:**
+   ```bash
+   mkdir -p public/audio
+   ```
+
+2. **Add a sample MP3 file by either:**
+   
+   **Option A: Download a royalty-free sample**
+   - Visit sites like freesound.org, zapsplat.com, or pixabay.com
+   - Download a short (30-60 second) royalty-free MP3
+   - Rename it to `sample1.mp3`
+   - Place it in `public/audio/`
+
+   **Option B: Use a placeholder generator**
+   - Visit online MP3 generators that create test tones
+   - Generate a simple tone or music sample
+   - Save as `sample1.mp3`
+
+   **Option C: Convert existing audio**
+   - Use any audio file you have
+   - Convert to MP3 using tools like FFmpeg:
+   ```bash
+   ffmpeg -i input.wav -codec:a libmp3lame -b:a 128k public/audio/sample1.mp3
+   ```
+
+3. **Recommended specifications:**
+   - Format: MP3
+   - Bitrate: 128-320 kbps
+   - Duration: 30-180 seconds
+   - Size: Under 5MB for web performance
+
+4. **File will be accessible in your React app as:**
+   ```javascript
+   const audioUrl = '/audio/sample1.mp3'
+   ```
+
+The MP3 player component will automatically load this file from the public directory.
