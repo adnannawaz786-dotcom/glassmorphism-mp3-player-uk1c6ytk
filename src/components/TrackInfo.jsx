@@ -1,4 +1,4 @@
-```jsx
+
 import React from 'react';
 import { Music } from 'lucide-react';
 
@@ -61,4 +61,3 @@ const TrackInfo = ({
 };
 
 export default TrackInfo;
-```
