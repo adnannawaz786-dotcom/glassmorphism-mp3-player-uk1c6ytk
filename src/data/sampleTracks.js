@@ -1,4 +1,3 @@
-```javascript
 // Sample audio tracks data for demo
 export const sampleTracks = [
   {
@@ -113,4 +112,3 @@ export const shuffleTracks = (tracks = sampleTracks) => {
   }
   return shuffled;
 };
-```
