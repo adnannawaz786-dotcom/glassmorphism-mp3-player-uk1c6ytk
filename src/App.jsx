@@ -1,4 +1,3 @@
-```jsx
 import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, SkipBack, SkipForward, Volume2, Upload } from 'lucide-react';
 import { Button } from '../components/ui/button';
@@ -272,4 +271,3 @@ function App() {
 }
 
 export default App;
-```
