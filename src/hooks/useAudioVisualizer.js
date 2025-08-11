@@ -1,4 +1,3 @@
-```javascript
 import { useState, useEffect, useRef, useCallback } from 'react';
 
 export const useAudioVisualizer = (audioElement, isPlaying) => {
@@ -169,4 +168,3 @@ export const useAudioVisualizer = (audioElement, isPlaying) => {
     bufferLength: dataArray?.length || 0
   };
 };
-```
