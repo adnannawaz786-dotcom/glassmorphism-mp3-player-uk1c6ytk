@@ -125,7 +125,7 @@ function App() {
             <div className="text-center mb-8">
               <input
                 type="file"
-                accept="audio/*"
+                accept="audio/mpeg" // ✅ Only MP3s
                 onChange={handleFileUpload}
                 ref={fileInputRef}
                 className="hidden"
