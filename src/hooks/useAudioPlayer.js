@@ -1,4 +1,3 @@
-```javascript
 import { useState, useRef, useEffect, useCallback } from 'react';
 
 export const useAudioPlayer = () => {
@@ -246,4 +245,3 @@ export const useAudioPlayer = () => {
     formatTime,
   };
 };
-```
