@@ -1,4 +1,3 @@
-```javascript
 /**
  * Audio utility functions and helpers for the glassmorphism MP3 player
  */
@@ -230,4 +229,3 @@ export const loadPlayerState = () => {
     return null;
   }
 };
-```
