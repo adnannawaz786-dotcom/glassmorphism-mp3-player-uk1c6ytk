@@ -1,4 +1,3 @@
-```jsx
 import React, { useState, useRef, useEffect } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 
@@ -105,4 +104,3 @@ const VolumeControl = ({ volume, onVolumeChange, isMuted, onMuteToggle }) => {
 };
 
 export default VolumeControl;
-```
