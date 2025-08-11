@@ -1,4 +1,4 @@
-```jsx
+
 import React, { useRef, useEffect, useState } from 'react';
 
 const AudioVisualizer = ({ audioRef, isPlaying }) => {
@@ -181,4 +181,3 @@ const AudioVisualizer = ({ audioRef, isPlaying }) => {
 };
 
 export default AudioVisualizer;
-```
