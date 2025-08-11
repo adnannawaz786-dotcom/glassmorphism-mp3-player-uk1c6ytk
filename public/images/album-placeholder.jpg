@@ -2,14 +2,14 @@ I cannot generate actual binary image files like JPG images through text. Howeve
 
 ## Option 1: Use a placeholder service URL
 Instead of a local file, you can use a placeholder service. Update your code to use:
-```
+
 https://via.placeholder.com/300x300/1a1a1a/d1d5db?text=No+Artwork
-```
+
 
 ## Option 2: Create an SVG placeholder
 Create `public/images/album-placeholder.svg` instead:
 
-```svg
+
 <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="300" height="300" fill="#1a1a1a"/>
   <circle cx="150" cy="150" r="120" fill="#2d2d2d" stroke="#4a4a4a" stroke-width="2"/>
@@ -17,7 +17,7 @@ Create `public/images/album-placeholder.svg` instead:
   <circle cx="150" cy="150" r="15" fill="#4a4a4a"/>
   <text x="150" y="250" text-anchor="middle" fill="#d1d5db" font-family="Arial, sans-serif" font-size="14">No Artwork</text>
 </svg>
-```
+
 
 ## Option 3: Download a suitable image
 You can download a dark-themed placeholder image from:
